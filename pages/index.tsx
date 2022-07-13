@@ -3,7 +3,7 @@ import Questionario from "../components/Questionario";
 import QuestaoModel from "../model/questao";
 import { useRouter } from "../node_modules/next/router";
 
-const BASE_URL = "https://quiz-full-stack-next.vercel.app/api";
+const BASE_URL = "https://quiz-full-stack-next.vercel.app/api"; // para teste local http://localhost:3000/api
 
 export default function Home() {
   const router = useRouter();
